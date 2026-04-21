@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Restaurant Management & QR Ordering SaaS
 
 Production-level multi-tenant restaurant management system with **guest-first QR ordering**. Built with Clean Architecture principles for scalability and maintainability.
@@ -282,3 +283,7 @@ Built with Clean Architecture principles and industry best practices for:
 ---
 
 **Built for investors, designed for users, architected for scale.**
+=======
+# scanovamenu
+QR Menu — restoran va kafelar uchun raqamli menyu tizimi. Mijozlar QR kodni skaner qilib, telefonida menyuni ko‘radi va tez buyurtma beradi. Bu xizmatni tezlashtiradi, vaqtni tejaydi va ofitsiant kutishni kamaytiradi. Egalar menyuni oson yangilaydi, taom va narxlarni tez o‘zgartiradi. Bosma menyu xarajatlari kamayadi va qulay yechim hisoblanadi.
+>>>>>>> abe87b9b7cce15bb4417dad3fec1724a5287782e
