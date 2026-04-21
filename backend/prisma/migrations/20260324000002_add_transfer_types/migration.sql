@@ -1,0 +1,3 @@
+-- AlterEnum: TRANSFER_OUT va TRANSFER_IN qo'shish
+ALTER TYPE "TransactionType" ADD VALUE 'TRANSFER_OUT';
+ALTER TYPE "TransactionType" ADD VALUE 'TRANSFER_IN';

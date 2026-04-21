@@ -1,0 +1,31 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg512" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0f0c29"/>
+    </linearGradient>
+    <linearGradient id="accent512" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="shine512" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- Maskable safe zone: content within 80% (410x410 centered) -->
+  <rect width="512" height="512" rx="0" fill="url(#bg512)"/>
+  <rect width="512" height="256" fill="url(#shine512)"/>
+  <!-- Fork -->
+  <rect x="172" y="116" width="24" height="124" rx="12" fill="white" opacity="0.95"/>
+  <rect x="212" y="116" width="24" height="124" rx="12" fill="white" opacity="0.95"/>
+  <rect x="252" y="116" width="24" height="124" rx="12" fill="white" opacity="0.95"/>
+  <rect x="174" y="236" width="100" height="20" rx="10" fill="white" opacity="0.95"/>
+  <rect x="204" y="256" width="44" height="140" rx="22" fill="white" opacity="0.95"/>
+  <!-- Knife -->
+  <rect x="316" y="256" width="44" height="140" rx="22" fill="white" opacity="0.95"/>
+  <path d="M316 116 Q360 116 360 196 L316 196 Z" fill="white" opacity="0.95"/>
+  <!-- Accent dot -->
+  <circle cx="400" cy="130" r="30" fill="url(#accent512)"/>
+  <circle cx="400" cy="130" r="14" fill="white" opacity="0.7"/>
+</svg>

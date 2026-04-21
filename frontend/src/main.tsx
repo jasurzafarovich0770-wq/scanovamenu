@@ -1,0 +1,24 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+import { Toaster } from 'react-hot-toast';
+import App from './App';
+import './index.css';
+import { initTheme } from './store/useThemeStore';
+
+// Theme ni iloji boricha erta init qilish — flash oldini olish
+initTheme();
+
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    <BrowserRouter
+      future={{
+        v7_startTransition: true,
+        v7_relativeSplatPath: true,
+      }}
+    >
+      <App />
+      <Toaster position="top-center" />
+    </BrowserRouter>
+  </React.StrictMode>
+);
